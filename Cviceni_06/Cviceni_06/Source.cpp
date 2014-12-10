@@ -84,8 +84,25 @@ vyplnit kontejner nejakymi duplicitnimi integery
 
 */
 
+#include <vector>
+#include <time.h>
+#include <algorithm>
+#include "C.h"
+
+using namespace std;
 
 int main(int argc, char** argv)
 {
+	vector<int> iv;
+
+	srand(time(NULL));
+	for (size_t i = 0; i < 100; i++)
+	{
+		iv.push_back(rand() % 10 + 1); // insert <1,10>
+	}
+
+	// transform(iv.begin(), iv.end(), );
+	
 
 }
+
