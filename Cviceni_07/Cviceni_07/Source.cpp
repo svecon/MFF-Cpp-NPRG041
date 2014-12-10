@@ -29,8 +29,8 @@ public:
 	const_iterator begin() const { return v_.cbegin(); }
 	const_iterator end() const { return v_.cend(); }
 
-	const_iterator cbegin() { return v_.cbegin(); }
-	const_iterator cend() { return v_.cend(); }
+	const_iterator cbegin() const { return v_.cbegin(); }
+	const_iterator cend() const { return v_.cend(); }
 
 
 private:
